@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Current Weather</h1>
+    <div class="form-group">
+        <label for="location-input">Enter location (City, Country):</label>
+        <input type="text" id="location-input" required>
+        <button id="getWeather">Get Weather</button>
+    </div>
+    <div class="weather-info" id="weather-info">
+        <p id="location"><strong>Location:</strong></p>
+        <p id="temperature"><strong>Temperature:</strong> 25°C</p>
+        <p id="condition"><strong>Condition:</strong> Clear Sky</p>
+        <p id="humidity"><strong>Humidity:</strong> 60%</p>
+    </div>
+    <div class="footer">
+        <p>Data provided by <a href="https://www.weatherapi.com/" title="Weather API">WeatherAPI.com</a></p>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
